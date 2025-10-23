@@ -83,7 +83,7 @@ flex-direction: row;
 justify-content: center;
 align-items: center;
 gap: 64;
-padding: 80px 100px 80px 100px;
+/* padding: 80px 100px 80px 100px; */
 border-radius: 24px;
 background: rgba(198, 228, 214, 1);
 margin-top: 45px;
@@ -117,4 +117,317 @@ text-align: left;
 border: none;
 
 
+}
+
+#pillars-section{
+    /* Frame 2087325501 */
+width: 1280px;
+height: 324px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+
+margin: 80px 160px;
+
+
+}
+.pillars-header{
+    /* Pillars of "Bangladesh 2.0" */
+width: 1280px;
+height: 48px;
+color: rgba(14, 14, 14, 1);
+
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 32px;
+}
+.Innovation{
+    /* Frame 2087325495 */
+width: 302px;
+height: 244px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 24p;
+padding: 24px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgba(255, 255, 255, 1);
+
+}
+.Sustainability{
+    /* Frame 2087325496 */
+width: 302px;
+height: 244px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 24;
+padding: 24px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgba(255, 255, 255, 1);
+
+}
+
+.Infrastructure{
+    /* Frame 2087325497 */
+width: 302px;
+height: 244px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 24;
+padding: 24px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgba(255, 255, 255, 1);
+
+}
+
+.Empowerment{
+    /* Frame 2087325498 */
+width: 302px;
+height: 244px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 24;
+padding: 24px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgba(255, 255, 255, 1);
+
+}
+
+.pillars{
+    display: flex;
+    gap: 24px;
+
+}
+
+.pillars-desc{
+    /* Dolor sit amet consectetur elit. Facilis quas, ducimus labore sequi quos */
+width: 254px;
+height: 72px;
+color: rgba(14, 14, 14, 0.7);
+
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.pillars-title{
+    /* Sustainability */
+width: 254px;
+height: 24px;
+color: rgba(14, 14, 14, 0.8);
+
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 24px;
+margin-bottom: 12px;
+}
+
+
+.vision{
+    display: flex;
+    gap: 24px;
+    justify-content:space-between ;
+    margin-bottom:32px ;
+}
+
+
+.vision-desc{
+    width: 1280px;
+height: 48px;
+color: rgba(14, 14, 14, 0.7);
+
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 24px;
+margin-bottom: 32px;
+}
+.learn-more{
+    /* Frame 2 */
+width: 122px;
+height: 41px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 48;
+padding: 11px 20px 11px 20px;
+border-radius: 8px;
+background: rgba(84, 144, 245, 1);
+color: aliceblue;
+border: none;
+}
+.vision-title{
+    /* The Vision of Future */
+width: 1280px;
+height: 48px;
+color: rgba(14, 14, 14, 1);
+
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+
+}
+
+#future-vision{
+    /* Frame 2087325504 */
+width: 1280px;
+height: 765px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 32;
+margin: 80px 160px;
+
+}
+.digital-transformation{
+    /* Frame 2087325495 */
+width: 410.67px;
+height: 325px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+justify-content: space-between;
+align-items: flex-start;
+padding: 32px;
+box-sizing: border-box;
+border-radius: 16px;
+background: rgba(84, 144, 245, 0.2);
+
+}
+
+.green-energy{
+    /* Frame 2087325499 */
+width: 410.67px;
+height: 325px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+padding: 32px;
+box-sizing: border-box;
+border-radius: 16px;
+background: rgba(198, 228, 214, 1);
+
+}
+
+.modern-infrastructure{
+    /* Frame 2087325500 */
+width: 410.67px;
+height: 325px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+padding: 32px;
+box-sizing: border-box;
+border-radius: 16px;
+background: rgba(247, 235, 207, 1);
+
+}
+
+.quote{
+
+    
+    /* Frame 2087325495 */
+width: 1280px;
+height: 256px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 24;
+padding: 48px 24px 48px 24px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgba(255, 255, 255, 1);
+background-image: url("../media/assets/quote-bg.png");
+    
+    background-repeat: no-repeat;
+
+}
+.chip-quote{
+    width: 1232px;
+height: 96px;
+color: rgba(14, 14, 14, 0.8);
+
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+padding-left: 0px;
+}
+.chip{
+/* Dr. Muhammad Yunus */
+width: 1232px;
+height: 24px;
+color: rgba(14, 14, 14, 0.8);
+
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 12px;
+margin-bottom: 4px;
+}
+
+.designation{
+    /* Chief Adviser of the People's Republic of Bangladesh */
+color: rgba(14, 14, 14, 0.6);
+
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
 }
