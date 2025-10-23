@@ -6,6 +6,34 @@
     padding: 0px;
 }
 #bangladesh-2{
+    
+}
+
+.header-caption{
+    /* Bangladesh 2.0 */
+width: 622px;
+height: 29px;
+color: rgba(14, 14, 14, 0.5);
+
+font-family: Fira Sans;
+font-size: 24px;
+font-weight: 500;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+}
+.header-title{
+    /* Idea , innovation , vision and challenges in New Bangladesh. */
+width: 622px;
+height: 201px;
+color: rgba(14, 14, 14, 1);
+
+font-family: Fira Sans;
+font-size: 56px;
+font-weight: 700;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
 }
 .nav-bar{
 
@@ -62,7 +90,7 @@ margin-top: 45px;
 }
 
 .header-content{
-
+margin-right: 64px;
 }
 
 .explore-btn{
