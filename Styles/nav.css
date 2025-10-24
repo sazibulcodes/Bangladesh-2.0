@@ -732,7 +732,7 @@ border-bottom: 1px solid rgba(14, 14, 14, 0.15);
 background: rgba(255, 255, 255, 1);
 
 }
-input::placeholder{
+.custom-amount::placeholder{
     /* Other Amount (Taka) */
 width: 187px;
 height: 24px;
@@ -770,4 +770,79 @@ line-height: 100%;
 letter-spacing: 0%;
 text-align: left;
 margin-top:32px ;
+}
+#newsletter{
+    /* Frame 2087325517 */
+width: 1280px;
+height: 395px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 64;
+padding: 80px 100px 80px 100px;
+border-radius: 24px;
+background: rgba(198, 228, 214, 1);
+margin-top: 80px;
+
+}
+.email-box{
+    /* Frame 2087325514 */
+width: 600px;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 24;
+padding: 18px 40px 18px 40px;
+border-radius: 8px 0px 0px 8px;
+background: rgba(255, 255, 255, 1);
+margin-top: 24px;
+}
+#newsletter h1{
+    /* Subscribe Newsletter */
+width: 622px;
+height: 48px;
+color: rgba(14, 14, 14, 1);
+
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+}
+#newsletter p{
+width: 622px;
+height: 48px;
+color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+.newsletter-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.email-box::placeholder{
+/* Enter your email here */
+width: 157px;
+height: 19px;
+color: rgba(14, 14, 14, 0.3);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
 }
