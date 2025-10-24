@@ -6,7 +6,7 @@
     padding: 0px;
 }
 #bangladesh-2{
-    
+    margin-top: 50px;
 }
 
 .header-caption{
@@ -615,5 +615,159 @@ letter-spacing: 0%;
 text-align: left;
 }
 
+#donation{
+    margin-top: 60px;
+    /* Frame 2087325516 */
+width: 1280px;
+height: 464px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 32;
 
 
+}
+.donate-amount{
+display: flex;
+gap:24px ;
+margin-top: 32px;
+margin-bottom: 32px;
+}
+.amount-1{
+/* Frame 2087325513 */
+width: 240px;
+height: 128px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 24;
+padding: 40px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgba(255, 255, 255, 1);
+color: rgba(14, 14, 14, 0.8);
+
+
+}
+.donation-title{
+    /* Donate Today */
+width: 1280px;
+height: 48px;
+color: rgba(14, 14, 14, 1);
+margin-bottom: 24px;
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+}
+.donation-desc{
+ width: 1104px;
+height: 48px;
+color: rgba(14, 14, 14, 0.7);
+
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+.amount{
+   /* Frame 2087325513 */
+width: 264px;
+height: 128px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 24;
+padding: 40px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgba(255, 255, 255, 1);
+ 
+}
+.amount h1{
+    
+width: 184px;
+height: 48px;
+color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+}
+.selected{
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgba(198, 228, 214, 1);
+}
+
+.custom-amount{
+    /* Frame 2087325514 */
+width: 1032px;
+height: 64px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 24;
+padding: 20px 40px 20px 40px;
+box-sizing: border-box;
+border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+background: rgba(255, 255, 255, 1);
+
+}
+input::placeholder{
+    /* Other Amount (Taka) */
+width: 187px;
+height: 24px;
+color: rgba(14, 14, 14, 0.3);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 400;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+
+}
+.donate{
+    /* Frame 2 */
+width: 151px;
+height: 56px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 48;
+padding: 17px 34px 17px 34px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.1);
+border-radius: 8px;
+background: rgba(0, 106, 80, 1);
+border: none;
+color: rgba(255, 255, 255, 1);
+
+font-family: Fira Sans;
+font-size: 12px;
+font-weight: 600;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+margin-top:32px ;
+}
