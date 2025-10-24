@@ -523,6 +523,7 @@ height: 40px;
     display: flex;
     flex-direction: column;
     gap:12px ;
+    margin-right: 48px;
 }
 .news-title{
     /* Recent News */
