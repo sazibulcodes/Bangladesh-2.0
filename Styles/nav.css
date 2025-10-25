@@ -7,6 +7,20 @@
 }
 #bangladesh-2{
     margin-top: 50px;
+    margin-left:160px ;
+    /* Frame 2 */
+/* Frame 2087325623 */
+width: 1600px;
+height: 4541px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 80;
+
+
+
 }
 
 .header-caption{
@@ -492,15 +506,20 @@ background: rgba(198, 228, 214, 1);
 
 }
 
-.news-section{
+#news-section{
+    margin-top: 80px;
     width: 1280px;
-height: 402px;
+height: 1402px;
+}
+.satellite-img{
+    /* image 3 */
+width: 408px;
+height: 306px;
+border-radius: 24px;
 }
 .new-satellite{
     display: flex;
     gap: 32px;
-    /* Frame 2087325509 */
-width: 1280px;
 height: 402px;
 /* Auto layout */
 display:flex;
@@ -523,7 +542,7 @@ height: 40px;
     display: flex;
     flex-direction: column;
     gap:12px ;
-    margin-right: 48px;
+    
 }
 .news-title{
     /* Recent News */
@@ -726,7 +745,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 gap: 24;
-padding: 20px 40px 20px 40px;
+padding: 20px 423px 20px 423px;
 box-sizing: border-box;
 border-bottom: 1px solid rgba(14, 14, 14, 0.15);
 background: rgba(255, 255, 255, 1);
@@ -772,16 +791,14 @@ text-align: left;
 margin-top:32px ;
 }
 #newsletter{
-    /* Frame 2087325517 */
 width: 1280px;
 height: 395px;
-/* Auto layout */
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 gap: 64;
-padding: 80px 100px 80px 100px;
+padding: 80px 0px 80px 0px;
 border-radius: 24px;
 background: rgba(198, 228, 214, 1);
 margin-top: 80px;
@@ -790,6 +807,7 @@ margin-top: 80px;
 .email-box{
     /* Frame 2087325514 */
 width: 600px;
+height: 55px;
 
 /* Auto layout */
 display: flex;
@@ -797,7 +815,7 @@ flex-direction: column;
 justify-content: flex-start;
 align-items: flex-start;
 gap: 24;
-padding: 18px 40px 18px 40px;
+padding: 0px 40px 0px 40px;
 border-radius: 8px 0px 0px 8px;
 background: rgba(255, 255, 255, 1);
 margin-top: 24px;
@@ -830,7 +848,6 @@ text-align: center;
 .newsletter-content{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     margin-bottom: 24px;
 }
 
@@ -845,4 +862,44 @@ font-weight: 400;
 line-height: 100%;
 letter-spacing: 0%;
 text-align: left;
+}
+
+footer{
+width: 1600px;
+height: 226px; 
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 32;
+padding: 50px 160px 50px 160px;
+   background: rgb(255, 255, 255);
+   margin-top: 80px;
+}
+footer h1{
+    /* Bangladesh 2.0 */
+width: 222px;
+height: 38px;
+color: rgba(14, 14, 14, 1);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+}
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+.social-icon{
+    display: flex;
+    flex-direction: row;
+    gap: 23px;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
 }
